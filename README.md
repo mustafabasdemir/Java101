@@ -1,2 +1,3 @@
 # Java101
-grade average
+1)grade average
+2)calculate kdv
