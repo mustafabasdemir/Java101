@@ -47,3 +47,24 @@ Genel bir kural olarak, artık yıllar 4 rakamının katı olan yıllardır. 100
 
 ## Üç ve Dörde Bölünen Sayı
 Java döngüler ile 0'dan girilen sayıya kadar olan sayılardan 3 ve 4'e tam bölünen sayıların ortalamasını hesaplayan programı yazınız.
+
+## Min-Max Değer Bulma
+Java ile klavyeden girilen N tane sayma sayısından en büyük ve en küçük sayıları bulan ve bu sayıları ekrana yazan programı yazın.
+
+## Mükemmel Sayı
+Bir sayının kendisi hariç pozitif tam sayı çarpanları (kalansız bölen sayıların) toplamı kendisine eşit olan sayıya mükemmel sayı denir. Klavyeden girilen bir sayının mükemmel sayı olup/olmadığını bulan ve sayı mükemmel sayı ise ekrana “mükemmel sayıdır.” değilse “mükemmel sayı değildir.” ifadelerini ekrana yazan programı Java dilinde yazınız.
+
+## Ters Üçgen Yıldız
+Java ile basamak sayısının kullanıcıdan alınan ve döngüler kullanılarak, yıldızlar(*) ile ekrana ters üçgen çizen programı yazın.
+
+## Asal Sayı Bulma
+Java ile 1 - 100 arasındaki asal sayıları ekrana yazdıran programı yazınız.
+
+## Fibonacci Serisi
+Fibonacci serisi, her sayının kendinden önceki ile toplanması sonucu oluşan bir sayı dizisidir. Java döngüler ile fibonacci serisi bulan program yazıyoruz. Fibonacci serisinin eleman sayısını kullanıcıdan alın.
+
+## Palindrom Sayı
+Palindromik sayı, iki taraftan okunduğu zaman okunuş yönüyle aynı olan sayılardır. Java ile bir sayının "Palindrom Sayı" olup olmadığını bulan bir program yapıyoruz.
+
+## Gelişmiş Hesap Mak.
+Java ile kullanıcın seçtiği işlemleri yapan hesap makinesi yapıyoruz.
