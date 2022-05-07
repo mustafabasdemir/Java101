@@ -68,3 +68,48 @@ Palindromik sayı, iki taraftan okunduğu zaman okunuş yönüyle aynı olan say
 
 ## Gelişmiş Hesap Mak.
 Java ile kullanıcın seçtiği işlemleri yapan hesap makinesi yapıyoruz.
+
+## Recursive Üslü Sayı
+Java dilinde, taban ve üs değerleri kullanıcıdan alınan üs alma işlemini "Recursive" metot kullanarak yapan programı yazınız.
+
+## Recursive Asal Sayı
+Java dilinde "Recursive" metot kullanarak, kullanıcıdan alınan sayının "Asal" sayı olup olmadığını bulan programı yazın.
+
+## Desene Göre Metot
+Java dilinde kullanıcıdan alınan n değerine göre aşağıdaki kurala uyan döngü kullanmadan bir "Recursive" metot yazın. Kural : Girilen sayı 0 veya negatif olduğu yere kadar girilen sayıdan 5 rakamını çıkarın. Her çıkarma işlemi sırasında ekrana son değeri yazdırın. Sayı negatif veya 0 olduktan sonra tekrar 5 ekleyin. Yine her ekleme işleminde sayının son değerini ekrana yazdırın.
+
+## Öğrenci Bilgi Sistemi
+Course sınıfına derse ait sözlü notu kısmını girin ve ortalamaya etkisini her ders için ayrı ayrı belirtin. Sözlü notların ıda ortalamaya etkileme yüzdesi ile dahil edin. Örnek : Fizik dersine ait sözlü notunun ortalamaya etkisi %20 ise sınav notunun etkisi %80'dir. Öğrenci sözlüden 90, sınavdan 60 almış ise, o dersin genel ortalamaya etkisi şu şekilde hesaplanır : Fizik Ortalaması : (90 * 0.20) + (60* 0.80);
+
+## Boks Oyunu
+Java Sınıflar ile boks maçını simüle eden programı yazıyoruz. Projeye ilk kimin dövüşe başlayacağını %50 olasılık ile hesaplayan sistemi entegre ediniz.
+
+## Sınıflar - Maaş Hesaplayıcı
+Java'da "Employee" adında fabrika çalışanlarını temsil eden ve metotları ile çalışanların maaşlarını hesaplayan bir sınıf yazmalısınız. Bu sınıf 4 nitelik ve 5 metoda sahip olacaktır. Sınıfın Nitelikleri name : Çalışanın adı ve soyadı salary : Çalışanın maaşı workHours : Haftalık çalışma saati hireYear : İşe başlangıç yılı Sınıfın Metotları Employee(name,salary,workHours,hireYear) : Kurucu metot olup 4 parametre alacaktır. tax() : Maaşa uygulanan vergiyi hesaplayacaktır. Çalışanın maaşı 1000 TL'den az ise vergi uygulanmayacaktır. Çalışanın maaşı 1000 TL'den fazla ise maaşının %3'ü kadar vergi uygulanacaktır. bonus() : Eğer çalışan haftada 40 saatten fazla çalışmış ise fazladan çalıştığı her saat başına 30 TL olacak şekilde bonus ücretleri hesaplayacaktır. raiseSalary() : Çalışanın işe başlangıç yılına göre maaş artışını hesaplayacaktır. Şuan ki yılı 2021 olarak alın. Eğer çalışan 10 yıldan az bir süredir çalışıyorsa maaşına %5 zam yapılacaktır. Eğer çalışan 9 yıldan fazla ve 20 yıldan az çalışıyorsa maaşına %10 zam yapılacaktır. Eğer çalışan 19 yıldan fazla çalışıyorsa %15 zam yapılacaktır. toString() : Çalışana ait bilgileri ekrana bastıracaktır.
+
+## Palindromik Kelimeleri Bulan Program
+Java dilinde kullanıcının girdiği kelimenin "Palindromik" olup olmadığını bulan bir program yazıyoruz. Eğer bir kelimenin tersten okunuşu yine aynı kelimeyi veriyorsa o kelime "Palindromik Kelime'dir".
+
+## Diziler - Harmonik Ortalama Hesaplama
+Dizideki sayıların harmonik ortalamasını hesaplayan programı yazınız. Harmonik Ortalama formülü : n (eleman sayısı) / elemanların harmonik serisi
+
+## Diziler - En Yakın Küçük ve En Yakın Büyük Sayı Bulma
+Dizideki elemanların girilen sayıdan küçük en yakın sayıyı ve en büyük en yakın sayıyı bulan programı yazınız.
+
+## Diziler - Çok Boyutlu Dizilerde Yıldızlar ile B Harfi Yapmak
+Çok boyutlu diziler kullanılarak "yıldızlar" ile ekrana "B" harfi yazan programı yazınız.
+
+## Diziler - Dizilerde Tekrar Eden Çift Sayıları Bulmak
+Bir sayı dizisindeki tekrar eden çift sayıları belirten bir program yazmak.
+
+## Diziler - Dizideki Elemanları Sıralama
+Java dilinde, dizideki elemanları küçükten büyüğe sıralayan programı yazınız. Dizinin boyutunu ve dizinin elemanlarını kullanıcıdan alınız.
+
+## Diziler - Eleman Frekansı
+Java dilinde, dizideki elemanların kaç kez tekrar edildiğini yani frekanslarını bulan programı yazınız.
+
+## Diziler - Matris Transpozunu Bulma
+Java dilinde, çok boyutlu diziler ile oluşturulmuş matrisin transpozunu bulan programı yazınız.
+
+## Dizilerr - Sayı Tahmin Oyunu
+Java dilinde programın 0-100 arasında rastgele seçtiği bir sayıyı kullanıcının tahmin etmesini istediğimiz bir "Sayı Tahmin Oyunu" yapıyoruz.
