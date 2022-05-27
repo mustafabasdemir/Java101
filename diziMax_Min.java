@@ -1,30 +1,37 @@
-package Java101;
-import java.util.Arrays;
-import java.util.Scanner;
-
-public class NearNumber {
+public class BHarfiYazdirma {
     public static void main(String[] args) {
-
-        int[] list = {-12, -120, 50, 25, 9, 11};
-        Arrays.sort(list);
-        System.out.println("Küçükten büyüğe sıralama");
-        System.out.println(Arrays.toString(list));
-
-        Scanner input = new Scanner(System.in);
-            System.out.print("Bir sayı giriniz: ");
-            int sayi = input.nextInt();
-
-        for (int i = 0; i < list.length; i++){
-
-       //   System.out.println(list[i]); > Dönen sayıları görmek için yazıldı.
-
-            if (sayi < list[i]){
-                System.out.println("Girilen sayıdan büyük ilk sayı: " + list[i]);
-                System.out.println("Girilen sayıdan küçük ilk sayı: " + list[i-1]);
-                break;
+        String[][] dizi = new String[11][7];
+        for (int i = 0; i < 11; i++) {
+            for (int j = 0; j < 7; j++) {
+                dizi[i][j]=" ";
             }
-
-
+        }
+        for (int i = 0; i < 11; i++) {
+            for (int j = 0; j < 7; j++) {
+                if (i == 0 && j < 6)
+                    dizi[i][j] = "*";
+                else if ((i > 0 && i < 5) && (j > 0 && j < 6))
+                    dizi[i][j] = " ";
+                else if ((i > 0 && i < 5) && (j > 5 && j <= 7))
+                    dizi[i][j] = "*";
+                else if ((i == 5) && (j < 6))
+                    dizi[i][j] = "*";
+                else if ((i > 5 && i < 10) && (j > 0 && j < 6))
+                    dizi[i][j] = " ";
+                else if ((i > 5 && i < 10) && (j > 5 && j <= 7))
+                    dizi[i][j] = "*";
+                else if ((i == 10) && (j < 6))
+                    dizi[i][j] = "*";
+                dizi[10][j]="*";
+            }
+            dizi[i][0] = "*";
+        }
+        for (int i=0;i<11;i++){
+            for (int j=0;j<7;j++)
+            {
+                System.out.print(dizi[i][j]);
+            }
+            System.out.print("\n");
         }
     }
 }
